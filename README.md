@@ -4,6 +4,20 @@ A Python-based Linux authentication log analysis platform designed to detect sus
 
 ## Overview
 
+### Project Status
+```
+*🚧 Currently in development*
+
+*Current focus:*
+*- Designing log parsing architecture*
+*- Understanding Linux authentication logs*
+*- Developing initial detection rules*
+
+*Completed:*
+*- Project planning*
+*- Initial README*
+*- Detection rule research*
+```
 Security teams rely on log analysis to identify malicious behaviour such as brute-force attacks, unauthorized access attempts, and privilege escalation.
 
 Sentinel is a lightweight security analysis tool that processes Linux authentication logs (`auth.log`), extracts important security events, applies detection rules, and generates alerts for further investigation.
