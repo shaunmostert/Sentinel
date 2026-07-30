@@ -4,6 +4,19 @@ A Python-based Linux authentication log analysis platform designed to detect sus
 
 ## Overview
 
+Security teams rely on log analysis to identify malicious behaviour such as brute-force attacks, unauthorized access attempts, and privilege escalation.
+
+Sentinel is a lightweight security analysis tool that processes Linux authentication logs (`auth.log`), extracts important security events, applies detection rules, and generates alerts for further investigation.
+
+The goal of this project is to demonstrate practical understanding of:
+
+- Security monitoring
+- Log analysis
+- Detection engineering
+- Incident investigation
+- Python automation
+- Linux authentication systems
+
 ### Project Status
 ```
 🚧 Currently in development
@@ -18,18 +31,6 @@ Completed:
 - Initial README
 - Detection rule research
 ```
-Security teams rely on log analysis to identify malicious behaviour such as brute-force attacks, unauthorized access attempts, and privilege escalation.
-
-Sentinel is a lightweight security analysis tool that processes Linux authentication logs (`auth.log`), extracts important security events, applies detection rules, and generates alerts for further investigation.
-
-The goal of this project is to demonstrate practical understanding of:
-
-- Security monitoring
-- Log analysis
-- Detection engineering
-- Incident investigation
-- Python automation
-- Linux authentication systems
 
 ---
 
