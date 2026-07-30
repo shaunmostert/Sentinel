@@ -6,17 +6,17 @@ A Python-based Linux authentication log analysis platform designed to detect sus
 
 ### Project Status
 ```
-*🚧 Currently in development*
+🚧 Currently in development
 
-*Current focus:*
-*- Designing log parsing architecture*
-*- Understanding Linux authentication logs*
-*- Developing initial detection rules*
+Current focus:
+- Designing log parsing architecture
+- Understanding Linux authentication logs
+- Developing initial detection rules
 
-*Completed:*
-*- Project planning*
-*- Initial README*
-*- Detection rule research*
+Completed:
+- Project planning
+- Initial README
+- Detection rule research
 ```
 Security teams rely on log analysis to identify malicious behaviour such as brute-force attacks, unauthorized access attempts, and privilege escalation.
 
