@@ -41,3 +41,99 @@ The goal of this project is to demonstrate practical understanding of:
 ---
 
 ## How Sentinel Works
+
+`Authentication Logs`
+    ↓
+`Log Parser`
+    ↓
+`Event Normalization`
+    ↓
+`Detection Engine`
+    ↓
+`Alert Generation`
+    ↓
+`Investigation Report Generation`
+
+---
+
+## Detection Rules
+
+### SSH Brute Force Detection
+
+Detects repeated failed SSH authentication attempts from the same source IP within a defined time window.
+
+Example:
+```bash
+Multiple failed SSH logins detected
+
+Source IP:
+203.0.113.42
+
+Target User:
+root
+
+Attempts:
+7
+
+Severity:
+High
+```
+
+
+---
+
+## Technology Used
+
+- Python
+- Linux
+- Regular Expressions
+- Log Analysis
+- Git/GitHub
+
+---
+
+## Project Goals
+
+This project was created to develop practical cybersecurity skills in:
+
+- Security Operations Centre (SOC) workflows
+- Detection logic development
+- Incident investigation processes
+- Defensive security engineering
+
+---
+
+## Installation
+
+(Add later)
+
+---
+
+## Usage
+
+(Add later)
+
+---
+
+## Roadmap
+
+Version 1:
+- [ ] Authentication log parsing
+- [ ] SSH brute force detection
+- [ ] Basic alert generation
+
+Version 2:
+- [ ] Timeline generation
+- [ ] HTML reports
+- [ ] Additional detection rules
+
+Version 3:
+- [ ] Live monitoring
+- [ ] Custom rules
+- [ ] Dashboard interface
+
+---
+
+## Disclaimer
+
+***Sentinel is an educational cybersecurity project designed for analysing security logs and learning defensive security concepts.***
