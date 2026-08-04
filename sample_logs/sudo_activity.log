@@ -1,0 +1,4 @@
+Aug 04 10:14:22 server sudo: alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/apt-get update
+Aug 04 10:15:05 server sudo: bob : TTY=pts/1 ; PWD=/var/www ; USER=root ; COMMAND=/bin/nano /etc/nginx/nginx.conf
+Aug 04 10:17:11 server sudo: charlie : 3 INCORRECT PASSWORD ATTEMPTS ; TTY=pts/2 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/systemctl restart docker
+Aug 04 10:19:45 server sudo: alice : user NOT in sudoers ; TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/cat /etc/shadow

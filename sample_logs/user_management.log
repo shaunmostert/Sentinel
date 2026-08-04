@@ -1,0 +1,4 @@
+Aug 04 11:00:01 server useradd[2001]: new user: name=testaccount UID=1005 GID=1005 home=/home/testaccount shell=/bin/bash
+Aug 04 11:01:30 server usermod[2005]: change user 'testaccount' password
+Aug 04 11:02:15 server usermod[2007]: added user testaccount to group sudo
+Aug 04 11:05:22 server userdel[2010]: delete user testaccount
